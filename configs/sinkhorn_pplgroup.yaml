@@ -1,0 +1,9 @@
+data_file: data/S20by100_peoplegroup.pkl
+ks: [1,5,10,20,30,40,50,100]
+eps_range: 50
+eps_scale: 0.1
+eps_start: 0.001
+eps_end: 0.1
+eps_num: 11
+save_dir: './tmp/sinkhorn_pplgroup/'
+device: cpu

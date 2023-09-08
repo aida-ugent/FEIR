@@ -1,0 +1,10 @@
+data_file: data/P10369by66898_vdab.pkl
+ks: [20]
+eps: [1, 0.9, 0.5, 0.3, 0.2, 0.1, 0.05, 0.01, 0.005, 0.001, 0.0005, 0.0001]
+#eps_range: 50
+#eps_scale: 0.1
+#eps_start: 0.001
+#eps_end: 0.1
+#eps_num: 11
+save_dir: './tmp/sinkhorn_vdab_large/'
+device: cuda
